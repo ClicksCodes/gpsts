@@ -1,4 +1,4 @@
-import Discord, { CommandInteraction, DiscordAPIError } from "discord.js";
+import Discord, { CommandInteraction } from "discord.js";
 import { SlashCommandSubcommandBuilder } from "@discordjs/builders";
 import { WrappedCheck } from "jshaiku";
 import generateEmbed from "../../utils/generateEmbed.js";

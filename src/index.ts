@@ -13,6 +13,6 @@ await client.registerCommandsIn("./commands");
 
 client.on("ready", () => {});
 
-client.gameManager = gameManager;
+client.gameManager = new gameManager(client);
 
 await client.login();
